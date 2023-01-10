@@ -1,0 +1,10 @@
+select{
+  padding: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+select:hover{
+  background-color: orange;
+  color: bisque;
+}
+

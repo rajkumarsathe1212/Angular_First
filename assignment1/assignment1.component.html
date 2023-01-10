@@ -1,0 +1,16 @@
+
+<h2>Quarters</h2>
+
+<select [(ngModel)]="selectedquarter" (change)="quarterchanged()">
+  <option *ngFor="let q of quarters" value="{{q}}">{{q}}</option>
+</select>
+
+<h2>Months</h2>
+
+<select [(ngModel)]="selectedmonth">
+  <option *ngFor="let m of months" value="{{m}}">{{m}}</option>
+</select>
+
+<h3>You Selected {{selectedquarter}} - {{months}}</h3>
+
+<hr>
